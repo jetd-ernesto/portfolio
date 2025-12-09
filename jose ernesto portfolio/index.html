@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="fotografia jose ernesto.jpeg" alt="Foto de José">
+            <h1>josé ernesto teixera domingues</h1>
+        </div>
+        <p>Sou estudante de Ciência da Computação, tenho 18 anos e gosto de treinar musculação!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="resumo.html">meu resumo</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <div class="lista-habilidades">
+                <button>CSS3</button>
+                <button>HTML5</button>
+                <button>JavaScript</button>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h3>Portfólio - Projetos</h3>
+            <p>sou estudante de ciencia da computaçao na cesar school onde eles mostram o que é preciso para entrar no mercado de trabalho!!</p>
+            <button onclick="window.location.href='projetos.html'">Clique aqui para visualizar o projeto</button>
+        </section>
+
+        <section class="sobre-mim">
+            <h3>jose ernesto teiceira domingues</h3>
+            <p>irei informar um pouco sobre mim, para voce me conhecer melhor na minha carreira </p>
+        </section>
+
+        <section class="contact">
+            <h3>Entre em Contato</h3>
+            <form id="contact-form">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" placeholder="Insira seu nome" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Insira seu e-mail" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" placeholder="Escreva uma mensagem" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️ 2025 Portfólio | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
